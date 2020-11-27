@@ -46,7 +46,8 @@ const App = () => {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
-    overflow: scroll;
+    overflow: auto;
+    max-height: 65vh;
   `
 
   const handleChange = (event: any) => {
