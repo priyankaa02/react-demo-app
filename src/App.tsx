@@ -130,9 +130,7 @@ const App = () => {
                 </div>
                 <ThemeSelector />
                 <div className="form-group">
-                  <button className="launch-btn">
-                    Launch
-                  </button>
+                  <button className="launch-btn">Launch</button>
                 </div>
               </form>
             </div>
