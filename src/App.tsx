@@ -25,7 +25,9 @@ const App = () => {
     width: 80%;
     margin-left: 10%;
     margin: 0 auto;
+    margin-bottom: 20px;
     text-align: center;
+    text-shadow: 1px 0px ${(props: any) => props.theme.primary};
   `
 
   const SytledSpan = styled.span`
@@ -139,8 +141,12 @@ const App = () => {
               <SytledH4>
                 Congrats!! You've created your page successfully
               </SytledH4>
-              <SytledSpan>{user.date}</SytledSpan>
-              <SytledP>{user.message}</SytledP>
+              <div className="card">
+                <div className="card-body">
+                  <SytledSpan>{user.date}</SytledSpan>
+                  <SytledP>{user.message}</SytledP>
+                </div>
+              </div>
               <button className="back-btn" onClick={() => onBack()}>
                 Back
               </button>

@@ -108,6 +108,10 @@ input[type="date"].hasValue:before {
   background-color: var(--color-2);
 }
 
+.card {
+  width: 90% !important;
+}
+
 .back-btn:focus, 
 .back-btn:hover {
   background: var(--color-1);
